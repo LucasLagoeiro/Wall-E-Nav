@@ -1,12 +1,87 @@
 <?xml version="1.0"?>
 <robot name="urdfbot">
-        
-  <link name="base_link">
+
+  <!--Chassi do carro-->
+  <link name="body_link">
     <visual>
+      <origin rpy = "0 0 0 " xyz = "0 0 0"/>
       <geometry>
-        <box size="0.1 0.1 0.1"/>
+        <box size="0.256 0.150 0.065"/>
       </geometry>
     </visual>
   </link>
 
+
+
+  <!--Roda direita traseira do carro-->
+  <joint name="wheel1_joint" type="fixed">
+    <parent link="body_link"/>
+    <child link="wheel1_link"/>
+    <origin xyz="-0.0575 -0.0665 -0.03"/>
+    <axis xyz="0 0 0"/>
+  </joint>
+
+  <link name="wheel1_link">
+    <visual>
+      <origin rpy="1.570795 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="0.025" radius="0.033"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <!--Roda esquerda traseira do carro-->
+  <joint name="wheel2_joint" type="fixed">
+    <parent link="body_link"/>
+    <child link="wheel2_link"/>
+    <origin xyz="-0.0575 0.0665 -0.03"/>
+    <axis xyz="0 0 0"/>
+  </joint>
+
+  <link name="wheel2_link">
+    <visual>
+      <origin rpy="1.570795 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="0.025" radius="0.033"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <!--Roda esquerda dianteira do carro-->
+  <joint name="wheel3_joint" type="fixed">
+    <parent link="body_link"/>
+    <child link="wheel3_link"/>
+    <origin xyz="0.0575 0.0665 -0.03"/>
+    <axis xyz="0 0 0"/>
+  </joint>
+
+  <link name="wheel3_link">
+    <visual>
+      <origin rpy="1.570795 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="0.025" radius="0.033"/>
+      </geometry>
+    </visual>
+  </link>
+
+<!--Roda direita dianteira do carro-->
+  <joint name="wheel4_joint" type="fixed">
+    <parent link="body_link"/>
+    <child link="wheel4_link"/>
+    <origin xyz="0.0575 -0.0665 -0.03"/>
+    <axis xyz="0 0 0"/>
+  </joint>
+
+  <link name="wheel4_link">
+    <visual>
+      <origin rpy="1.570795 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="0.025" radius="0.033"/>
+      </geometry>
+    </visual>
+  </link>
+
+
+
 </robot>
+

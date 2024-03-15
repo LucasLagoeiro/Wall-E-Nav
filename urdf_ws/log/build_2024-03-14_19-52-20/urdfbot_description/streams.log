@@ -1,0 +1,41 @@
+[0.608s] Invoking command in '/home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/build/urdfbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/src/urdfbot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/install/urdfbot_description
+[0.626s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.662s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.912s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.927s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[0.952s] -- Found xacro: 2.0.7 (/opt/ros/foxy/share/xacro/cmake)
+[0.952s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.080s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.082s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.083s] -- Added test 'lint_cmake' to check CMake code style
+[1.083s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.084s] -- Added test 'xmllint' to check XML markup files
+[1.087s] -- Configuring done
+[1.090s] -- Generating done
+[1.091s] -- Build files have been written to: /home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/build/urdfbot_description
+[1.096s] Invoked command in '/home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/build/urdfbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/src/urdfbot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/install/urdfbot_description
+[1.104s] Invoking command in '/home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/build/urdfbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/build/urdfbot_description -- -j6 -l6
+[1.182s] Invoked command in '/home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/build/urdfbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/build/urdfbot_description -- -j6 -l6
+[1.257s] Invoking command in '/home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/build/urdfbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/build/urdfbot_description
+[1.271s] -- Install configuration: ""
+[1.272s] -- Execute custom install script
+[1.272s] -- Symlinking: /home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/install/urdfbot_description/share/urdfbot_description//urdf/test.urdf
+[1.293s] -- Symlinking: /home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/install/urdfbot_description/share/urdfbot_description//urdf/urdfbot_simple.urdf
+[1.309s] -- Symlinking: /home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/install/urdfbot_description/share/urdfbot_description//rviz/robot.rviz
+[1.330s] -- Symlinking: /home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/install/urdfbot_description/share/urdfbot_description//launch/urdf_visualize.launch.py
+[1.349s] -- Symlinking: /home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/install/urdfbot_description/share/ament_index/resource_index/package_run_dependencies/urdfbot_description
+[1.369s] -- Symlinking: /home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/install/urdfbot_description/share/ament_index/resource_index/parent_prefix_path/urdfbot_description
+[1.391s] -- Symlinking: /home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/install/urdfbot_description/share/urdfbot_description/environment/ament_prefix_path.sh
+[1.408s] -- Symlinking: /home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/install/urdfbot_description/share/urdfbot_description/environment/ament_prefix_path.dsv
+[1.424s] -- Symlinking: /home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/install/urdfbot_description/share/urdfbot_description/environment/path.sh
+[1.443s] -- Symlinking: /home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/install/urdfbot_description/share/urdfbot_description/environment/path.dsv
+[1.465s] -- Symlinking: /home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/install/urdfbot_description/share/urdfbot_description/local_setup.bash
+[1.481s] -- Symlinking: /home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/install/urdfbot_description/share/urdfbot_description/local_setup.sh
+[1.500s] -- Symlinking: /home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/install/urdfbot_description/share/urdfbot_description/local_setup.zsh
+[1.520s] -- Symlinking: /home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/install/urdfbot_description/share/urdfbot_description/local_setup.dsv
+[1.542s] -- Symlinking: /home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/install/urdfbot_description/share/urdfbot_description/package.dsv
+[1.563s] -- Symlinking: /home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/install/urdfbot_description/share/ament_index/resource_index/packages/urdfbot_description
+[1.585s] -- Symlinking: /home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/install/urdfbot_description/share/urdfbot_description/cmake/urdfbot_descriptionConfig.cmake
+[1.601s] -- Symlinking: /home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/install/urdfbot_description/share/urdfbot_description/cmake/urdfbot_descriptionConfig-version.cmake
+[1.615s] -- Symlinking: /home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/install/urdfbot_description/share/urdfbot_description/package.xml
+[1.638s] Invoked command in '/home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/build/urdfbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/build/urdfbot_description

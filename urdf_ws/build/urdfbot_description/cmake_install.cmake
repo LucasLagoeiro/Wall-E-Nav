@@ -1,8 +1,8 @@
-# Install script for directory: /home/llagoeiro/Desktop/TheConstruct/URDF_ROS2/Aula01/ros2_ws/src/urdfbot_description
+# Install script for directory: /home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/src/urdfbot_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/llagoeiro/Desktop/TheConstruct/URDF_ROS2/Aula01/ros2_ws/install/urdfbot_description")
+  set(CMAKE_INSTALL_PREFIX "/home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/install/urdfbot_description")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -37,76 +37,8 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-# Set default install directory permissions.
-if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
-endif()
-
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urdfbot_description/" TYPE DIRECTORY FILES
-    "/home/llagoeiro/Desktop/TheConstruct/URDF_ROS2/Aula01/ros2_ws/src/urdfbot_description/urdf"
-    "/home/llagoeiro/Desktop/TheConstruct/URDF_ROS2/Aula01/ros2_ws/src/urdfbot_description/rviz"
-    "/home/llagoeiro/Desktop/TheConstruct/URDF_ROS2/Aula01/ros2_ws/src/urdfbot_description/launch"
-    )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/llagoeiro/Desktop/TheConstruct/URDF_ROS2/Aula01/ros2_ws/build/urdfbot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/urdfbot_description")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/llagoeiro/Desktop/TheConstruct/URDF_ROS2/Aula01/ros2_ws/build/urdfbot_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/urdfbot_description")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urdfbot_description/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urdfbot_description/environment" TYPE FILE FILES "/home/llagoeiro/Desktop/TheConstruct/URDF_ROS2/Aula01/ros2_ws/build/urdfbot_description/ament_cmake_environment_hooks/ament_prefix_path.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urdfbot_description/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urdfbot_description/environment" TYPE FILE FILES "/home/llagoeiro/Desktop/TheConstruct/URDF_ROS2/Aula01/ros2_ws/build/urdfbot_description/ament_cmake_environment_hooks/path.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urdfbot_description" TYPE FILE FILES "/home/llagoeiro/Desktop/TheConstruct/URDF_ROS2/Aula01/ros2_ws/build/urdfbot_description/ament_cmake_environment_hooks/local_setup.bash")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urdfbot_description" TYPE FILE FILES "/home/llagoeiro/Desktop/TheConstruct/URDF_ROS2/Aula01/ros2_ws/build/urdfbot_description/ament_cmake_environment_hooks/local_setup.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urdfbot_description" TYPE FILE FILES "/home/llagoeiro/Desktop/TheConstruct/URDF_ROS2/Aula01/ros2_ws/build/urdfbot_description/ament_cmake_environment_hooks/local_setup.zsh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urdfbot_description" TYPE FILE FILES "/home/llagoeiro/Desktop/TheConstruct/URDF_ROS2/Aula01/ros2_ws/build/urdfbot_description/ament_cmake_environment_hooks/local_setup.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urdfbot_description" TYPE FILE FILES "/home/llagoeiro/Desktop/TheConstruct/URDF_ROS2/Aula01/ros2_ws/build/urdfbot_description/ament_cmake_environment_hooks/package.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/llagoeiro/Desktop/TheConstruct/URDF_ROS2/Aula01/ros2_ws/build/urdfbot_description/ament_cmake_index/share/ament_index/resource_index/packages/urdfbot_description")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urdfbot_description/cmake" TYPE FILE FILES
-    "/home/llagoeiro/Desktop/TheConstruct/URDF_ROS2/Aula01/ros2_ws/build/urdfbot_description/ament_cmake_core/urdfbot_descriptionConfig.cmake"
-    "/home/llagoeiro/Desktop/TheConstruct/URDF_ROS2/Aula01/ros2_ws/build/urdfbot_description/ament_cmake_core/urdfbot_descriptionConfig-version.cmake"
-    )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urdfbot_description" TYPE FILE FILES "/home/llagoeiro/Desktop/TheConstruct/URDF_ROS2/Aula01/ros2_ws/src/urdfbot_description/package.xml")
+  include("/home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/build/urdfbot_description/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -117,5 +49,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/llagoeiro/Desktop/TheConstruct/URDF_ROS2/Aula01/ros2_ws/build/urdfbot_description/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/build/urdfbot_description/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
