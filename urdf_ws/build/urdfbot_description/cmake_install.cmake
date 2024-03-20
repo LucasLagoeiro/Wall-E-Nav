@@ -1,8 +1,8 @@
-# Install script for directory: /home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/src/urdfbot_description
+# Install script for directory: /home/llagoeiro/Desktop/TheConstruct/URDF_ROS2/Aula01/urdf_ws/src/urdfbot_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/install/urdfbot_description")
+  set(CMAKE_INSTALL_PREFIX "/home/llagoeiro/Desktop/TheConstruct/URDF_ROS2/Aula01/urdf_ws/install/urdfbot_description")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -37,8 +37,13 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+endif()
+
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/build/urdfbot_description/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/llagoeiro/Desktop/TheConstruct/URDF_ROS2/Aula01/urdf_ws/build/urdfbot_description/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -49,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/build/urdfbot_description/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/llagoeiro/Desktop/TheConstruct/URDF_ROS2/Aula01/urdf_ws/build/urdfbot_description/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

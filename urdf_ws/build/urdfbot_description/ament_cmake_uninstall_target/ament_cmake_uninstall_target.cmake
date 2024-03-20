@@ -2,7 +2,7 @@
 # ament_cmake_core/cmake/uninstall_target/ament_cmake_uninstall_target.cmake.in
 
 function(ament_cmake_uninstall_target_remove_empty_directories path)
-  set(install_space "/home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/install/urdfbot_description")
+  set(install_space "/home/llagoeiro/Desktop/TheConstruct/URDF_ROS2/Aula01/urdf_ws/install/urdfbot_description")
   if(install_space STREQUAL "")
     message(FATAL_ERROR "The CMAKE_INSTALL_PREFIX variable must not be empty")
   endif()
@@ -29,7 +29,7 @@ function(ament_cmake_uninstall_target_remove_empty_directories path)
 endfunction()
 
 # uninstall files installed using the standard install() function
-set(install_manifest "/home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/build/urdfbot_description/install_manifest.txt")
+set(install_manifest "/home/llagoeiro/Desktop/TheConstruct/URDF_ROS2/Aula01/urdf_ws/build/urdfbot_description/install_manifest.txt")
 if(NOT EXISTS "${install_manifest}")
   message(FATAL_ERROR "Cannot find install manifest: ${install_manifest}")
 endif()
@@ -57,4 +57,4 @@ message(STATUS "Execute custom uninstall script")
 # begin of custom uninstall code
 
 # uninstall files installed using the symlink install functions
-include("/home/lucas/Desktop/lucas/Faculdade/7_Semestre/Wall-E-Nav/urdf_ws/build/urdfbot_description/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake")
+include("/home/llagoeiro/Desktop/TheConstruct/URDF_ROS2/Aula01/urdf_ws/build/urdfbot_description/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake")
